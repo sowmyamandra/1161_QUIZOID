@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/d" >
+
+     <TextView
+        android1:id="@+id/textView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentTop="true"
+        android1:layout_marginTop="38dp"
+        android1:text="TextView" 
+        android1:textColor="#fff000ff"/>
+
+    <RadioGroup
+        android1:id="@+id/radioGroup1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_below="@+id/textView1"
+        android1:layout_marginLeft="42dp"
+        android1:layout_marginTop="66dp" >
+
+        <RadioButton
+            android1:id="@+id/radio0"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" android:textColor="#fff000ff"
+            android1:text="RadioButton" />
+
+        <RadioButton
+            android1:id="@+id/radio1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:text="RadioButton"
+            android1:textColor="#fff000ff" />
+
+        <RadioButton
+            android1:id="@+id/radio2"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content" android:textColor="#fff000ff"
+            android1:text="RadioButton" />
+
+        <RadioButton
+            android1:id="@+id/radioButton1"
+            android1:layout_width="wrap_content"
+            android1:layout_height="wrap_content"
+            android1:layout_alignLeft="@+id/radioGroup1" android:textColor="#fff000ff"
+            android1:layout_below="@+id/radioGroup1"
+            android1:layout_marginTop="15dp"
+            android1:text="RadioButton" />
+    </RadioGroup>
+
+    <Button
+        android1:id="@+id/button1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content" android:textColor="#fff000ff"
+        android1:layout_alignRight="@+id/radioGroup1"
+        android1:layout_below="@+id/radioGroup1"
+        android1:layout_marginTop="36dp"
+        android1:text="submit" />
+    <TextView
+        android1:id="@+id/textView2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentLeft="true"
+        android1:layout_alignParentTop="true" android:textColor="#fff000ff"
+        android:visibility="invisible"
+        android1:text="TextView" />
+
+    <Button
+        android1:id="@+id/button2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBaseline="@+id/button1"
+        android1:layout_alignBottom="@+id/button1"
+        android1:layout_marginLeft="31dp"
+        android1:layout_toRightOf="@+id/button1"
+        android1:text="exit"
+        android1:textColor="#fff000ff" />
+
+</RelativeLayout>

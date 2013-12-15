@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ff00ff00" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="58dp"
+        android:src="@drawable/pc" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_centerVertical="true" >
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+            android:text="ram..."
+            android:textColor="#fff000ff"/>
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:textColor="#fff000ff"
+            android:text="ram..." />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content" android:textColor="#fff000ff"
+            android:layout_height="wrap_content"
+            android:text="ram..." />
+
+        <RadioButton
+            android:id="@+id/radio3"
+            android:layout_width="wrap_content" android:textColor="#fff000ff"
+            android:layout_height="wrap_content"
+            android:text="ram..." />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2" android:textColor="#fff000ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textV"
+        android:layout_below="@+id/radioGroup1"
+        android:layout_marginTop="26dp"
+        android:text="Next" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:textColor="#fff000ff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Level 5 started"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="20dp"
+        android:text="hhhh"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#fff000ff" />
+
+</RelativeLayout>
